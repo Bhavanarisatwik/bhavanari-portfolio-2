@@ -31,12 +31,12 @@ A modern, responsive portfolio website built with Next.js and Tailwind CSS, feat
 
 1. Clone the repository
    ```
-   git clone https://github.com/Bhavanarisatwik/bhavanari-portfolio2.git
+   git clone https://github.com/Bhavanarisatwik/bhavanari-portfolio-2.git
    ```
 
 2. Navigate to the project directory
    ```
-   cd bhavanari-portfolio2
+   cd bhavanari-portfolio-2
    ```
 
 3. Install dependencies

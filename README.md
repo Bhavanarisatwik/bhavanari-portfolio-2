@@ -1,36 +1,74 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Bhavanari Portfolio Website
+
+A modern, responsive portfolio website built with Next.js and Tailwind CSS, featuring a vibrant neon color scheme with electric blue and neon green accents.
+
+## Features
+
+- **Modern UI Design**: Clean interface with neon green and electric blue color scheme
+- **Responsive Layout**: Fully responsive design that works on all devices
+- **Interactive Elements**: Smooth animations and hover effects
+- **Project Showcase**: Gallery of personal projects with details
+- **Skills Section**: Visual representation of technical skills
+- **Contact Form**: Easy-to-use contact form for potential clients or employers
+
+## Technologies Used
+
+- Next.js
+- TypeScript
+- Tailwind CSS
+- React Scroll for smooth navigation
+- SVG for custom graphics
+- React Hooks for state management
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Node.js (version 14 or later)
+- npm or yarn
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Installation
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Clone the repository
+   ```
+   git clone https://github.com/Bhavanarisatwik/bhavanari-portfolio2.git
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+2. Navigate to the project directory
+   ```
+   cd bhavanari-portfolio2
+   ```
 
-## Learn More
+3. Install dependencies
+   ```
+   npm install
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+4. Run the development server
+   ```
+   npm run dev
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+5. Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Project Structure
 
-## Deploy on Vercel
+- `/src/components`: React components for each section of the portfolio
+- `/public/projects`: Images for project showcases
+- `/src/app`: Next.js app router files
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Customization
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+You can customize this portfolio by:
+- Updating the profile image at `/public/projects/profile-pic.jpg`
+- Modifying project data in `ProjectsSection.tsx`
+- Adjusting colors in `globals.css`
+- Updating content in each section component
+
+## License
+
+MIT
+
+## Author
+
+Bhavanari Shiva Satwik
